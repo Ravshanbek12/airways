@@ -1,4 +1,4 @@
-name: n8_default_project
+name: airways
 description: A new Flutter project.
 
 publish_to: 'none'
@@ -12,21 +12,29 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-
   cupertino_icons: ^1.0.2
   flutter_svg: ^2.0.6
   flutter_screenutil: ^5.8.4
+  shared_preferences: ^2.2.0
+  fluttertoast: ^8.2.2
+  sqflite: ^2.2.8+4
+  path_provider: ^2.0.15
+  path: ^1.8.3
+  change_app_package_name: ^1.1.0
+  url_launcher: ^6.1.11
+  http: ^1.1.0
+  string_to_color: ^2.0.0
+  zoom_tap_animation: ^1.1.0
+  cached_network_image: ^3.2.3
+  shimmer: ^3.0.0
+  image_picker: ^1.0.0
+  flutter_rating_bar: ^4.0.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-
   flutter_lints: ^2.0.0
-
-
-
 
 flutter:
 
