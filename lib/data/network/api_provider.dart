@@ -1,6 +1,5 @@
 import 'dart:convert';
 
-import 'package:flutter/material.dart';
 import 'package:n8_default_project/data/model/weather_main_model.dart';
 import 'package:n8_default_project/utils/constants.dart';
 
