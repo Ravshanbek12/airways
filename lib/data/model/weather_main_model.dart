@@ -38,7 +38,7 @@ class WeatherMainModel {
 
   factory WeatherMainModel.fromJson(Map<String, dynamic> json) {
     return WeatherMainModel(
-      croodModel: CroodModel.fromJson(json["crood"]),
+      croodModel: CroodModel.fromJson(json["coord"]),
       weatherModel: (json["weather"] as List)
           .map((e) => WeatherModel.fromJson(e))
           .toList(),
